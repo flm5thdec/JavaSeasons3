@@ -120,4 +120,86 @@ no direct constructors but you can use below methods of XSSFWorkbook
 getSheet(String)
 getSheetAt(int)						
 								
+
+-----------------------------------------------------
+Day : 20th Mar - Thursday
+-----------------------------------------------------								  
 								
+--------------------
+Methods in XSSFSheet
+--------------------								
+								
+getLastRowNum():int ==> counts starts from zero 
+
+getPhysicalNumberOfRows():int ==> counts starts from 1 count will be increment only if the has atleast one cell
+
+getRow(int):XSSFRow ==> here int is rownum , rownum starts from zero 
+
+								
+--------------------
+Methods in XSSFRow
+--------------------									
+
+getLastCellNum():int ==> counts starts from one  
+
+getPhysicalNumberOfCells():int ==> counts starts from 1 count will be increment only if the cell is not empty 
+
+getCell(int): XSSFCell ==> here int is cellnum , cellnum starts from zero
+
+--------------------
+Methods in XSSFCell
+--------------------
+
+getCellType():CellType ==> here CellType is enum 
+
+
+------------------
+Excel Write
+-------------------
+Case 1 : modifying an existing cell 
+
+Case 2: Creating a cell in existing row 
+
+Case 3: Creating a Row and Cell in it 
+
+------------------------------------
+Properties File 
+-----------------------------------
+file having an extension .properties
+
+mainly used to store key value pairs 
+
+--------------------------------------------------
+Day : 21st Mar - Friday
+--------------------------------------------------
+
+--------------
+HashMap
+--------------
+
+Collections are mainly use to store idividual items 
+
+Map is used to store Key value pairs 
+where Key can be of any type
+Value also can be of same or any other 
+
+-------------------------
+Methods in Map (I)
+--------------------------
+
+put(K, V):V --> K is key of any DataType & V is value of any DataType
+
+get(Object):V --> Object is Key 
+
+remove(Object):V 
+
+size():int --> no of key value pairs 
+
+isEmpty():boolean 
+
+keySet():Set<K> 
+
+containsKey(Object):boolean
+containsValue(Object):boolean
+
+
