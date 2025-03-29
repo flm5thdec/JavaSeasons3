@@ -25,6 +25,11 @@ public class HashMapDemo2 {
 		
 		System.out.println(hMap);
 		 
+		
+		System.out.println(hMap.get("Developer"));
+		
+		System.out.println(hMap.get("Tester"));
+		
 
 	}
 
